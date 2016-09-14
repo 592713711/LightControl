@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:br="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="280dp"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/personal_sex"
+                android:id="@+id/textView13"
+                android:layout_marginLeft="30dp"
+                android:textSize="22sp"
+                android:textColor="@android:color/black"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+
+        <com.zsg.jx.lightcontrol.view.BorderRelativeLayout
+            android:layout_width="200dp"
+            android:layout_gravity="center_horizontal"
+            br:borderColor="#eeeeee"
+            br:needBottomBorder="true"
+            br:needTopBorder="false"
+            br:borderStrokeWidth="2"
+            android:layout_height="60dp"
+            android:id="@+id/rl_man" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/man"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:layout_centerVertical="true"
+                android:id="@+id/textView14" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:clickable="false"
+                android:id="@+id/rb_man" />
+        </com.zsg.jx.lightcontrol.view.BorderRelativeLayout>
+
+
+
+
+        <com.zsg.jx.lightcontrol.view.BorderRelativeLayout
+            android:layout_width="200dp"
+            android:layout_gravity="center_horizontal"
+            br:borderColor="#eeeeee"
+            br:needBottomBorder="false"
+            br:needTopBorder="true"
+            br:borderStrokeWidth="2"
+            android:layout_height="60dp"
+            android:id="@+id/rl_woman" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/woman"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:layout_centerVertical="true"
+                android:id="@+id/textView15" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:clickable="false"
+                android:id="@+id/rb_woman" />
+        </com.zsg.jx.lightcontrol.view.BorderRelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

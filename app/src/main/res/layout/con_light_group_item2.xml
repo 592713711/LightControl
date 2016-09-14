@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/group_layout"
+    android:layout_width="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+        <View
+            android:id="@+id/group_line2"
+            android:layout_width="2dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="40dp"
+            android:background="#636363" />
+
+        <ImageView
+            android:id="@+id/iv_alllight"
+            android:layout_width="50dp"
+            android:layout_below="@+id/group_line2"
+            android:layout_marginLeft="15dp"
+            android:layout_height="50dp"
+            android:scaleType="fitXY"
+            android:layout_centerVertical="true"
+            android:src="@drawable/light_allon" />
+
+        <View
+            android:id="@+id/group_line"
+            android:layout_width="2dp"
+            android:layout_below="@+id/iv_alllight"
+            android:layout_height="15dp"
+            android:layout_marginLeft="40dp"
+            android:background="#636363" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="在线1"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/alllight_number"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/iv_alllight" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设备1"
+            android:id="@+id/equipement_num"
+            android:layout_marginRight="20dp"
+            android:textColor="@android:color/black"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

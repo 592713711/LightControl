@@ -1,0 +1,390 @@
+<resources>
+    <string name="app_name">LightControl</string>
+
+    <!-- system -->
+    <string name="system_name">智能灯控</string>
+    <string name="app_versionName" translatable="false">1.1</string>
+    <string name="system_image_back">返回</string>
+    <string name="system_image_logo">Logo</string>
+    <string name="system_image_setting">设置</string>
+    <string name="system_image_search">搜索</string>
+    <string name="system_rmb">￥</string>
+    <string name="system_zfb">支付宝</string>
+    <string name="system_bankcard">银行卡</string>
+    <string name="system_shibi">食币</string>
+    <string name="system_backmomey">退款</string>
+    <string name="system_deal">团购</string>
+    <string name="system_submit">提交</string>
+    <string name="system_cancel">取消</string>
+    <string name="system_sure">确定</string>
+    <string name="system_sureifexit">是否确定要退出程序</string>
+    <string name="system_exit">退出</string>
+    <string name="system_delete">删除</string>
+    <!-- auth.login -->
+    <string name="login_edittext_phone">手机号</string>
+    <string name="login_edittext_password">密码</string>
+    <string name="login_button_login">登录</string>
+    <string name="login_textview_forgetpassword">忘记密码？</string>
+    <string name="login_textview_register">注册账号</string>
+    <string name="login_success">登录成功</string>
+    <string name="login_fail">登录失败,请检查用户名和密码</string>
+    <string name="login_fail2">登录失败,请重新登录</string>
+    <!-- auth.register -->
+    <string name="register_edittext_phone">手机号码</string>
+    <string name="register_edittext_code">验证码</string>
+    <string name="register_button_code">获取验证码</string>
+    <string name="register_edittext_name">姓名</string>
+    <string name="register_radiobutton_sex">性别</string>
+    <string name="register_radiobutton_man">男</string>
+    <string name="register_radiobutton_woman">女</string>
+    <string name="register_edittext_password">密码(6到16位)</string>
+    <string name="register_edittext_confirm_password">确认密码</string>
+    <string name="register_button_register">注册</string>
+    <string name="register_textview_warning">注册视为同意蓝牙防丢器的</string>
+    <string name="register_textview_protocol">  <a href="">用户协议</a></string>
+    <string name="register_protocol">用户协议</string>
+    <string name="str_get_pwd">获取密码</string>
+    <string name="phone_format_not_match">手机号码的格式不正确</string>
+    <string name="is_sending">正在发送</string>
+    <string name="second">秒</string>
+    <string name="resgister_ok">注册成功</string>
+    <string name="code_has_send">验证码已发送,注意查收</string>
+    <string name="pwd_has_send">密码已发送,注意查收</string>
+    <string name="phone_not_empty">手机号码不能为空</string>
+    <string name="code_not_empty">验证码不能为空</string>
+    <string name="code_not_right">验证码不正确</string>
+    <string name="name_not_empty">姓名不能为空</string>
+    <string name="pwd_not_empty">密码不能为空</string>
+    <string name="oldpwd_length_not_right">旧密码的长度为6-16位</string>
+    <string name="pwd_length_not_right">密码的长度为6-16位</string>
+    <string name="ensure_pwd_not_empty">确认密码不能为空</string>
+    <string name="pwd_ensurepwd_not_match">密码和确认密码不相同</string>
+    <!-- person updatepassword -->
+    <string name="person_password_text_title">修改密码</string>
+    <string name="person_oldpassword_text_enter">请输入旧密码</string>
+    <string name="person_password_text_enter">请输入新密码</string>
+    <string name="person_password_text_enteragain">请确认密码</string>
+    <string name="person_password_btn_save">保存</string>
+    <string name="person_password_update_ok">修改密码成功</string>
+
+    <!--userinfo-->
+    <string name="edit_sex">修改性别</string>
+    <string name="edit_ok">修改完成</string>
+    <string name="edit_username">修改用户名</string>
+    <string name="album">相册</string>
+    <string name="camera">相机</string>
+    <string name="select_photo_sourse">选择图片来源</string>
+    <string name="sdcard_not_exist">内存卡不存在</string>
+    <string name="exception_not_write_album">发生意外，无法写入相册</string>
+
+    <string name="is_logout_user">是否要注销当前账户</string>
+    <string name="str_input_id">请输入终端ID</string>
+    <string name="str_input_imei">请输入WIFI唯一标识</string>
+    <string name="link_device_ok">关联wifi设备成功</string>
+
+    <!--setting-->
+    <string name="is_checking_version">正在检查版本...</string>
+    <string name="find_new_version">发现新版本！</string>
+    <string name="is_need_updata">是否要更新</string>
+    <string name="is_newest_version">该版本是最新版</string>
+
+    <string name="SSID">SSID名称</string>
+    <string name="BSSID">MAC 地址</string>
+    <string name="PASS">密码</string>
+    <string name="send">发送</string>
+    <string name="close">关闭</string>
+    <string name="IPMAC">IP 地址以及 MAC 地址</string>
+    <string name="str_brightness">亮度</string>
+    <string name="str_chrome">色度</string>
+
+
+    <!-- person main -->
+    <string name="person_main_text_title">个人中心</string>
+    <string name="person_main_text_shop">店铺收藏</string>
+    <string name="person_main_text_mycoin">我的食币</string>
+    <string name="person_main_text_setting">设置</string>
+    <string name="person_main_text_logout">注销</string>
+    <string name="person_main_image_information">个人资料</string>
+    <string name="person_main_image_title">个人中心</string>
+    <string name="person_main_image_shop">店铺收藏</string>
+    <string name="person_main_image_mycoin">我的食币</string>
+    <string name="person_main_image_setting">设置</string>
+    <string name="person_main_image_logout">注销</string>
+
+    <!-- person information -->
+    <string name="person_information_text_title">编辑资料</string>
+    <string name="person_information_text_photo">头像</string>
+    <string name="person_information_text_telephone">手机号码</string>
+    <string name="person_information_text_name">姓名</string>
+    <string name="person_information_text_sex">性别</string>
+    <string name="person_information_text_password">修改密码</string>
+
+
+    <!-- person setting -->
+    <string name="person_setting_text_title">设置</string>
+    <string name="person_setting_text_aboutus">关于我们</string>
+    <string name="person_setting_text_clean">清理缓存</string>
+    <string name="person_setting_text_advitise">意见反馈</string>
+    <string name="person_setting_text_explain">免责声明</string>
+    <string name="person_setting_text_update">版本更新</string>
+    <!-- person feedback -->
+    <string name="person_feedback_text_title">意见反馈</string>
+    <string name="person_feedback_edit_contenthint">请输入您的反馈意见(200字以内)</string>
+    <string name="person_feedback_rating">请选择您的评分：</string>
+    <string name="person_feedback_edit_relatethint">请输入您的邮箱和电话(选填)</string>
+    <string name="person_feedback_btn_send">发送</string>
+    <string name="person_feedback_btn_order_id">订单号：</string>
+
+    <!-- refund -->
+    <!-- xlistview -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <!-- zhifubao -->
+    <string name="confirm_title">提示</string>
+    <string name="ensure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="content_description_icon">icon</string>
+    <string name="refresh">刷新</string>
+    <string name="processing">加载中</string>
+    <string name="download">下载</string>
+    <string name="download_fail">下载安装包失败</string>
+    <string name="cancel_install_msp">你已取消安装移动快捷支付服务</string>
+    <string name="cancel_install_alipay">你已取消安装支付宝钱包</string>
+    <string name="redo">重试</string>
+    <string name="install_msp">你尚未安装支付宝移动快捷支付服务，请立即安装</string>
+    <string name="install_alipay">你尚未安装支付宝钱包，请立即安装</string>
+    <string name="software_update">软件版本更新</string>
+    <string name="hide">隐藏</string>
+    <string name="download_success">新版本软件下载成功</string>
+    <string name="aboutus_1">芜湖蓝格网络技术有限公司</string>
+    <string name="aboutus_2">客服热线：0533-5711768(400-096-0553)</string>
+    <string name="aboutus_3">掌上餐厅官网：http://www.zsctgw.com</string>
+    <string name="submit">已提交</string>
+    <string name="havepay">已付款</string>
+    <string name="submit_msg">您的订单已提交，请等待商家确认，谢谢</string>
+
+    <string name="ble_not_supported">Bluetooth Low Energy not supported</string>
+    <string name="str_connect">连接</string>
+    <string name="str_connect_success">连接成功</string>
+
+    <string name="str_connected">已连接</string>
+    <string name="str_disconnected">未连接</string>
+    <string name="str_connecting">正在连接</string>
+    <string name="prompt">左滑删除</string>
+    <!-- device list -->
+    <string name="devicelist">主控</string>
+    <string name="name1">测试设备1</string>
+    <string name="waiting">请等待…</string>
+    <string name="network_error">网络错误</string>
+    <string name="bt_error">本机没有找到蓝牙硬件或驱动！</string>
+    <string name="lost_hist">遗失历史</string>
+    <string name="loc_hist">定位历史</string>
+    <string name="str_no_distrub">勿扰模式</string>
+    <string name="str_app_password">密码保护</string>
+    <string name="str_closed">已关闭</string>
+    <string name="str_user_setting">用户信息</string>
+    <string name="str_version">版本号</string>
+    <string name="str_check_update">检查更新</string>
+    <string name="str_open">已打开</string>
+    <string name="str_turn_on_pass">打开密码保护</string>
+    <string name="str_change_pass">更改密码</string>
+    <string name="str_turn_off_pass">关闭密码保护</string>
+    <string name="str_pass_error">密码不正确!</string>
+    <string name="str_setup_pass">设置密码</string>
+    <string name="str_enter_pass">输入密码</string>
+    <string name="str_welcome_back">欢迎回来</string>
+    <string name="str_input_again">密码不正确,请再输入</string>
+    <string name="str_reenter_pass">重新输入密码</string>
+    <string name="str_no_match">密码不匹配,重新输入</string>
+
+    <string name="str_second">秒</string>
+    <string name="str_stretch">张</string>
+    <string name="str_camera_busy">相机忙碌</string>
+    <string name="str_anti_lost">防丢设置</string>
+    <string name="str_find_me">查找设置</string>
+    <string name="str_disconnect">断开连接</string>
+    <string name="str_device_alert">防丢器报警</string>
+    <string name="str_light">手机闪光灯</string>
+    <string name="str_phone_alert">手机报警设置</string>
+    <string name="str_ringtone">铃声选择</string>
+    <string name="str_camera_setting">照相机设置</string>
+    <string name="str_continuous">连拍</string>
+    <string name="str_interval">间隔</string>
+    <string name="str_connect_first">请先连接服务器</string>
+    <string name="str_off">关闭</string>
+    <string name="str_on">打开</string>
+    <string name="str_network_error">网络错误</string>
+    <string name="str_network_prompt">请检查是否可以正常连接网络</string>
+    <string name="str_wait_for_position">等待定位!</string>
+    <string name="str_position_success">定位记录成功</string>
+
+    <string name="location">经纬度:</string>
+    <string name="str_link_device">关联WIFI设备</string>
+    <string name="str_inactive">未激活</string>
+    <string name="str_online">在线</string>
+    <string name="str_offline">离线</string>
+    <string name="str_unkown">未知</string>
+    <string name="str_light_control">灯光控制</string>
+    <string name="str_success">成功</string>
+    <string name="str_fail">失败</string>
+    <string name="alert">警告</string>
+    <string name="stop_alert">停止告警</string>
+    <string name="str_unlink_device">解除Wifi设备连接</string>
+    <string name="str_prompt">删除连接提示</string>
+
+
+    <string name="conlight">彩灯控制</string>
+    <string name="use_light">常用彩灯</string>
+    <string name="useless_light">少用彩灯</string>
+    <string name="other_light">其他</string>
+    <string name="ok">确定</string>
+    <string name="control_lightness">调节亮度:</string>
+    <string name="control_tem">调节色温:</string>
+    <string name="control_color">调节颜色:</string>
+    <string name="control_light_switch">彩灯开关:</string>
+    <string name="lightness_per">亮度:%s%%</string>
+    <string name="please_open_switch">请您先打开彩灯开关</string>
+    <string name="light_offline_remind">灯泡处于离线状态,请您检查该灯泡的网络状态</string>
+    <string name="led_control">Led开关:</string>
+    <string name="cmd_sending">请稍后...</string>
+    <string name="data_loading">数据加载中...</string>
+    <string name="add_light">添加彩灯</string>
+    <string name="delete_light">删除彩灯</string>
+    <string name="edit_light">编辑彩灯</string>
+    <string name="add_light_error">添加彩灯失败</string>
+    <string name="add_light_ok">添加彩灯成功</string>
+    <string name="delete_light_error">删除彩灯失败</string>
+    <string name="delete_light_ok">删除彩灯成功</string>
+    <string name="edit_light_error">编辑彩灯失败</string>
+    <string name="edit_light_ok">编辑彩灯成功</string>
+    <string name="light_name">彩灯名字:</string>
+    <string name="light_no">彩灯编号:</string>
+    <string name="light_name_empty_remind">彩灯名字不能为空</string>
+    <string name="light_no_empty_remind">彩灯编号不能为空</string>
+    <string name="light_name_format_remind">彩灯名字的字符长度不能超过20</string>
+    <string name="light_no_format_remind">彩灯编号不在1~255之间</string>
+    <string name="connect_time_out">连接超时</string>
+    <string name="crash_reminder">抱歉,程序异常,即将重启</string>
+    <string name="link_service_fail">关联服务失败</string>
+    <string name="device_link_no_light">该设备中在线的灯泡为空</string>
+    <string name="wifi_device_offline">该wifi设备处于离线状态</string>
+    <string name="net_has_breaked">网络已断开,请您设置网络</string>
+    <string name="service_long_socket_breaked">长连接服务断开,请您检查网络是否正常</string>
+    <string name="has_connect">已连接</string>
+    <string name="no_connect">未连接</string>
+    <string name="request_devicelist_fail">网络问题，获取wifi设备失败</string>
+    <string name="net_fail">网络异常，请重新尝试</string>
+    <string name="getlightlist_fail">获取灯泡列表失败</string>
+    <string name="nowifidevice_use">暂无可用wifi设备</string>
+
+
+    <!-- 个人信息-->
+    <string name="personal_info">个人信息</string>
+    <string name="personal_head">头像</string>
+    <string name="personal_nickname">昵称</string>
+    <string name="nosetting_nickname">未命名</string>
+    <string name="personal_sex">性别</string>
+    <string name="nosetting_sex">未设置</string>
+    <string name="personal_password">修改密码</string>
+    <string name="personal_mobile">手机号</string>
+    <string name="mobile_phone">15574978727</string>
+    <string name="personal_count">账号</string>
+    <string name="count">15574978727</string>
+    <string name="writtenoff">退出登录</string>
+    <string name="changenickname">更改名字</string>
+    <string name="savenickname">保存</string>
+    <string name="loadhead">上传头像中...</string>
+
+    <string name="nickinfo">好名字可以让你的朋友更容易记住你</string>
+    <string name="savenicknamesuce">保存成功</string>
+    <string name="nickname_tolong">别名长度在16个字符以内</string>
+
+    <!--性别-->
+    <string name="man">男</string>
+    <string name="woman">女</string>
+
+    <!--我的主页-->
+    <string name="personal_infomation">个人信息</string>
+    <string name="personal_news">消息</string>
+    <string name="personal_special">特别功能</string>
+    <string name="allownew_device">允许新设备加入</string>
+
+    <!--登录页面-->
+    <string name="forget_password">忘记密码</string>
+    <string name="mobile_count">手机号/用户名</string>
+    <string name="password">密码</string>
+    <string name="log_on">登录</string>
+    <string name="register">注册</string>
+
+    <!--注册界面-->
+    <string name="register_user">用户注册</string>
+    <string name="mobilephone">手机号:</string>
+    <string name="identify_code">验证码:</string>
+    <string name="next">下一步</string>
+    <string name="get_code">获取验证码</string>
+
+    <!--帮助反馈-->
+    <string name="help_fadebanck">帮助反馈</string>
+
+    <string name="about_us">关于</string>
+
+    <!--允许新设备加入-->
+    <string name="title">LightControl</string>
+    <string name="content">允许新设备加入</string>
+
+
+    <!--功能介绍-->
+    <string name="fuction_introduce">功能介绍</string>
+
+    <!--详细注册界面-->
+    <string name="name">姓名:</string>
+    <string name="passwordco">密码:</string>
+    <string name="passwordconf">确认密码:</string>
+    <string name="complete">完成</string>
+    <string name="sex">性别</string>
+
+    <!---->
+    <string name="forgerpassword">忘记密码</string>
+    <string name="newpassword">新密码:</string>
+    <string name="confnewpassword">确认新密码:</string>
+    <string name="updateinfo_success">修改信息成功</string>
+    <string name="gateway_infomation">网关信息</string>
+    <string name="wifi_name">请链接WIFI</string>
+    <string name="wifi_password">请输入您的WIFI密码</string>
+    <string name="add_gatway">添加网关</string>
+    <string name="add_lights">添加灯具</string>
+    <string name="add_permisson">添加权限</string>
+    <string name="wifi_id_not_empty">WIFI的唯一标识不能为空</string>
+    <string name="wifi_pwd_not_empty">WIFI的密码不能为空</string>
+    <string name="wait_wifi_confim">无线网关正在配置,请稍等...</string>
+    <string name="get_wifi_mac_error">获取wifi的mac地址错误</string>
+    <string name="configure_route_ok">配置成功</string>
+    <string name="configure_route_fail">配置失败</string>
+    <string name="check_net_config">请您检查网络配置</string>
+    <string name="forbid">禁止</string>
+    <string name="allow">允许</string>
+    <string name="nogetwg">无可用网关</string>
+    <string name="newwg1">新网关</string>
+    <string name="reconnect">连接异常，重新建立连接</string>
+    <string name="connect_fail">连接服务器失败...</string>
+    <string name="wifidevice_not_online">该wifi设备不在线</string>
+
+    <string name="planet_prompt">无网关设备</string>
+    <string name="gate_seq">设备名称：</string>
+    <string name="gate_version">设备地址：</string>
+    <string name="gate_light">照明\t在线:</string>
+    <string name="gate_lightnum">0</string>
+    <string name="gate_switch">开关\t在线:</string>
+    <string name="gate_switchnum">0</string>
+    <string name="gate_sensor">传感器\t在线:</string>
+    <string name="gate_sensornum">0</string>
+    <string name="gate_shareper">分享权限</string>
+    <string name="gate_delete">删除设备</string>
+    <string name="gate_name">网关设备</string>
+    <string name="delete_device_suc">删除设备成功</string>
+
+</resources>

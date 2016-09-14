@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zsg.jx.lightcontrol.ui.NickNameActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/theme"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/changenickname"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:id="@+id/textView"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/btn_back"
+            android:background="@color/theme"
+            android:src="@drawable/fanhui" />
+
+
+
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="@string/savenickname"
+            android:textColor="@android:color/white"
+            android:layout_marginRight="10dp"
+            android:id="@+id/text_save"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:ems="10"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/edit_nickname"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_centerHorizontal="true"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/nickinfo"
+        android:id="@+id/textView11"
+        android:layout_below="@+id/edit_nickname"
+        android:layout_alignStart="@+id/edit_nickname" />
+
+</RelativeLayout>

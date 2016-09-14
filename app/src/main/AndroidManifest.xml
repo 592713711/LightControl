@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zsg.jx.lightcontrol"
+    android:versionName="@string/app_versionName">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:name=".app.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ui.SplashActivity" />
+        <activity
+            android:name=".ui.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ui.FirstActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.LoginActivity" />
+        <activity android:name=".ui.RegisterActivity" />
+        <activity android:name=".ui.DetailRegActivity" />
+        <activity
+            android:name=".ui.PersonInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.WifiConnectionActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ui.SpecialFunctionActivity" />
+        <activity android:name=".ui.FunctionIntroduceActivity" />
+        <activity android:name=".ui.HelpFadeCallbackActivity" />
+        <activity android:name=".ui.AboutUsActivity" />
+        <activity
+            android:name="me.nereo.multi_image_selector.MultiImageSelectorActivity"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name=".ui.NickNameActivity" />
+
+        <service
+            android:name=".service.WifiConnectService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".ui.ControlLightActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.AddScenActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.AddScenLightActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.AddLightActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.GateWayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.DeviceListActivity"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+
+        <activity android:name=".ui.AddAreaActivity"></activity>
+    </application>
+
+</manifest>

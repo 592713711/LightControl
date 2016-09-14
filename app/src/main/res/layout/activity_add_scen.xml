@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.zsg.jx.lightcontrol.ui.AddScenActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/view1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自定义情景"
+            android:textSize="18sp"
+            android:textColor="@color/theme"
+            android:id="@+id/textView16"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下一步"
+            android:textSize="14sp"
+            android:textColor="@color/theme"
+            android:layout_marginRight="20dp"
+            android:id="@+id/text_next"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_below="@+id/view1"
+        android:background="@color/theme"
+        android:layout_height="1dp"
+        android:id="@+id/view10">
+    </View>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="输入情景名称"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="22dp"
+        android:id="@+id/text_name"
+        android:layout_below="@+id/view1"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:id="@+id/edit_scename"
+        android:hint="输入情景名称"
+        android:maxLength="6"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:background="@drawable/edittext_shape"
+        android:layout_marginLeft="15dp"
+        android:layout_alignBottom="@+id/text_name"
+        android:layout_centerHorizontal="true" />
+
+    <ExpandableListView
+        android:id="@+id/list"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/text_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:childDivider="@null"
+        android:divider="@null"
+        android:gravity="center"
+        android:listSelector="@android:color/transparent"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbars="none"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>

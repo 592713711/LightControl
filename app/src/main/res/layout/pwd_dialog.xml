@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:drawableRight="@drawable/ic_clear_24dp"
+            android:inputType="textPassword"
+            android:hint="原密码:"
+            android:id="@+id/et_oldPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:inputType="textPassword"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:drawableRight="@drawable/ic_clear_24dp"
+            android:hint="新密码:"
+            android:id="@+id/et_newPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:inputType="textPassword"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:drawableRight="@drawable/ic_clear_24dp"
+            android:hint="确认新密码:"
+            android:id="@+id/et_surePassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>

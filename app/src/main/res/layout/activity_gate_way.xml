@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:br="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.zsg.jx.lightcontrol.ui.GateWayActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/gateway_infomation"
+            android:textColor="@color/theme"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/btn_return"
+            android:layout_marginLeft="10dp"
+            android:onClick="doBack"/>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/relativeLayout4"
+        android:background="@color/theme">
+
+    </View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/view8">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:text="@string/gate_seq"
+            android:textColor="@android:color/black"
+            android:layout_marginStart="31dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/text_seq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView20"
+            android:layout_toEndOf="@+id/textView20"
+            android:text="010000007F16BD8E"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/gate_version"
+            android:textColor="@android:color/black"
+            android:layout_below="@+id/textView20"
+            android:layout_alignStart="@+id/textView20" />
+
+        <TextView
+            android:id="@+id/text_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView22"
+            android:layout_toEndOf="@+id/textView22"
+            android:text="uV108A160719M20"
+            android:textColor="@android:color/black" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView22"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <com.zsg.jx.lightcontrol.view.BorderRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                br:borderStrokeWidth="1.0"
+                br:needLeftAndRigtBorder="true">
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/lighton" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toEndOf="@+id/imageView9"
+                    android:text="@string/gate_light"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/text_lights"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/textView24"
+                    android:text="@string/gate_lightnum"
+                    android:textColor="@android:color/black" />
+            </com.zsg.jx.lightcontrol.view.BorderRelativeLayout>
+
+            <com.zsg.jx.lightcontrol.view.BorderRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                br:borderStrokeWidth="1.0"
+                br:needLeftAndRigtBorder="true">
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/switchon" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toEndOf="@+id/imageView10"
+                    android:text="@string/gate_switch"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/text_switchnum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/textView26"
+                    android:text="@string/gate_switchnum"
+                    android:textColor="@android:color/black" />
+            </com.zsg.jx.lightcontrol.view.BorderRelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/linearLayout"
+            android:orientation="horizontal">
+
+            <com.zsg.jx.lightcontrol.view.BorderRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                br:borderStrokeWidth="1.0"
+                br:needLeftAndRigtBorder="true"
+                br:needTopBorder="false">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/sensoron" />
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toEndOf="@+id/imageView11"
+                    android:text="@string/gate_sensor"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/text_sensornum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/textView28"
+                    android:text="@string/gate_sensornum"
+                    android:textColor="@android:color/black" />
+            </com.zsg.jx.lightcontrol.view.BorderRelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"></RelativeLayout>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/btn_permisson"
+            android:text="@string/gate_delete"
+            android:textColor="@android:color/white"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

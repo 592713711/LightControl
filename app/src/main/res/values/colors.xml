@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="theme">#38adff</color>
+
+
+    <color name="text_normal">#cdcdcd</color>
+    <color name="text_press">#9d9c9c</color>
+    <color name="border_gray">#cccccc</color>
+    <color name="text_blue">#1398a7</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="textbg_red">#FF0000</color>
+
+
+    <color name="orange">#FF7F24</color>
+    <color name="deepgrey">#424242</color>
+    <color name="btnbg_blue">#1197a6</color>
+    <color name="btnbg_orange">#ff9900</color>
+    <color name="btnbg_grey">#9e9e9e</color>
+    <color name="headbg">#424242</color>
+    <color name="textcolor_normal">#696969</color>
+    <color name="textcolor_select">#22aa33</color>
+
+    <color name="ksw_md_ripple_normal">#1E000000</color>
+    <color name="ksw_md_ripple_checked">#33019285</color>
+
+    <color name="ksw_md_solid_shadow">#33000000</color>
+
+    <color name="ksw_md_solid_normal">#ECECEC</color>
+    <color name="ksw_md_solid_checked">#019285</color>
+    <color name="ksw_md_solid_disable">#FFFFFF</color>
+    <color name="ksw_md_solid_checked_disable">#aaaaaa</color>
+    <!-- 灰色 -->
+    <color name="gray_bg">#f0f0f0</color>
+    <color name="hint_text_remind">#FF4070</color>
+
+    <color name="interval">#CBCED2</color>
+    <color name="litt_black">#2E2E2E</color>
+
+    <color name="item_line_color">#c8c7cc</color>
+</resources>

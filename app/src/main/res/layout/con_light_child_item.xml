@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:id="@+id/rl1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:id="@+id/light_dark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="25dp"
+                android:text="暗" />
+
+            <SeekBar
+                android:id="@+id/brightBar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:focusable="true"
+                android:indeterminate="false"
+                android:maxHeight="6.0dp"
+                android:minHeight="6.0dp"
+                android:paddingLeft="16.0dp"
+                android:paddingRight="16.0dp"
+                android:progressDrawable="@drawable/brightness_seekbar"
+                android:splitTrack="false"
+                android:thumb="@mipmap/light_seekbar"
+                app:layout_widthPercent="75%w" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:text="明" />
+
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:id="@+id/rl2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/rl1">
+
+            <TextView
+                android:id="@+id/light_tone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="25dp"
+                android:text="冷" />
+
+            <SeekBar
+                android:id="@+id/chromeBar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:focusable="true"
+                android:indeterminate="false"
+
+                android:maxHeight="6.0dp"
+                android:minHeight="6.0dp"
+                android:paddingLeft="16.0dp"
+                android:paddingRight="16.0dp"
+                android:progressDrawable="@drawable/tinge_seekbar"
+                android:splitTrack="false"
+                android:thumb="@drawable/seekbar_thumb"
+                app:layout_widthPercent="75%w" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:text="暖" />
+
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

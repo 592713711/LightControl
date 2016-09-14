@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/group_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/iv_alllight"
+            android:layout_width="50dp"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="20dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/light_allon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="照明在线：1"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/alllight_number"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/iv_alllight" />
+
+        <CheckBox
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/check_light"
+            android:layout_marginRight="20dp"
+            android:button="@drawable/check_state"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:checked="false" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

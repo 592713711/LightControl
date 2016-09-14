@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:br="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/rl_corners"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="135dp"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:id="@+id/textView17"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/content"
+                android:textSize="16sp"
+                android:id="@+id/textView18"
+                android:textColor="@android:color/black"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+
+            <com.zsg.jx.lightcontrol.view.BorderRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rl_cancel"
+                android:background="@drawable/rl_corners"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/forbid"
+                    android:textSize="16sp"
+                    android:textColor="@color/theme"
+                    android:id="@+id/textView19"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </com.zsg.jx.lightcontrol.view.BorderRelativeLayout>
+
+            <com.zsg.jx.lightcontrol.view.BorderRelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rl_submit"
+                br:needLeftAndRigtBorder="true"
+                android:background="@drawable/rl_corners"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/allow"
+                    android:textSize="16sp"
+                    android:textColor="@color/theme"
+                    android:id="@+id/textView20"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </com.zsg.jx.lightcontrol.view.BorderRelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
